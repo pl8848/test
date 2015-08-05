@@ -11,3 +11,5 @@ ssh -T git@github.com 使用此命令来连接github
 建立文件(git)，使用 git add git 
 把git文件加入git索引 
  git push -u origin master再次推送
+git remote add origin https://github.com/pl8848/test.git    远程推送到github
+“ 合更改需要 命令 commit -a -m 合并 ”
