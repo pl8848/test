@@ -1,0 +1,10 @@
+学习git笔记
+使用: $ git config --global user.name "name"
+      $ git config --global user.email "you@mail.com"
+初始化git  在/home/username/  生成一个 .gitconfig 存放上面的name 及 mail
+
+
+先建立一个文件夹，再进入此文件夹后使用$ git init 命令来始化为git仓库
+ssh -T git@github.com 使用此命令来连接github
+执行之后提示：Permission denied (publickey).
+这说明我们还没有在GitHub账户中正确设置公钥认证，如下图所示：
