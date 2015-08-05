@@ -8,3 +8,6 @@
 ssh -T git@github.com 使用此命令来连接github
 执行之后提示：Permission denied (publickey).
 这说明我们还没有在GitHub账户中正确设置公钥认证，如下图所示：
+建立文件(git)，使用 git add git 
+把git文件加入git索引 
+ git push -u origin master再次推送
